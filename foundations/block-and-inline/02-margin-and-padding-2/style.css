@@ -1,3 +1,6 @@
+* {
+  padding: 15px;
+}
 body {
   background: #eee;
   font-family: sans-serif;
@@ -15,13 +18,18 @@ body {
 
 .content {
   background: #e3f4ff;
+  margin-bottom: 16px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: 0 auto;
 }
